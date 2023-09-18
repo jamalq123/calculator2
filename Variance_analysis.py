@@ -101,3 +101,65 @@ st.write('Cash Flows:')
 st.write(cash_flows)
 
 
+
+
+
+
+
+      
+
+
+
+
+
+'''price_var
+elif selected_function == "Quantity Variance":
+    quantity_var
+elif selected_function == "Sales Variance":
+    quantity_var
+
+st.sidebar.header('User Input Parameters')
+page = st.sidebar.selectbox("Explore Or Predict", ("material price variance", "MQV"))
+
+# Streamlit UI
+st.title('CAGR Calculator')
+
+
+
+if st.button('Calculate mpv'):
+    try:
+        mpv = ((actual_price_materaial-standard_price_material) * actual_quantity_material)
+        st.success(f'CAGR: {mpv}')
+    except ZeroDivisionError:
+        st.error("Number of years cannot be zero.")
+    except Exception as e:
+        st.error(f"An error occurred: {e}")'''
+       
+
+
+'''actual_quantity_materaial = st.number_input('Enter Material Actual Qty:')
+standard_quantity_material = st.number_input('Enter Material Standard Qty:')
+standard_quantity_material = st.number_input('Enter Material Std Price:')
+
+    price_var
+elif selected_function == "Quantity Variance":
+    quantity_var
+elif selected_function == "Sales Variance":
+    quantity_var
+
+st.sidebar.header('User Input Parameters')
+page = st.sidebar.selectbox("Explore Or Predict", ("material price variance", "MQV"))
+
+# Streamlit UI
+st.title('CAGR Calculator')
+
+
+
+if st.button('Calculate mpv'):
+    try:
+        mpv = ((actual_price_materaial-standard_price_material) * actual_quantity_material)
+        st.success(f'CAGR: {mpv}')
+    except ZeroDivisionError:
+        st.error("Number of years cannot be zero.")
+    except Exception as e:
+        st.error(f"An error occurred: {e}")'''
